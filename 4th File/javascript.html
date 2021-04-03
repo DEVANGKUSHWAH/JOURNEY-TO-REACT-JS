@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Input tutorial</title>
+    <script language="javascript">
+        // <script type="text/javascript">
+        function addNumber() {
+            var var1 = parseInt(document.getElementById("value1").value);
+            var var2 = parseInt(document.getElementById("value2").value);
+            var ansD = document.getElementById("answer");
+            ansD.value = var1 + var2;
+
+        }
+    </script>
+
+</head>
+
+<body>
+    value1 =
+    <input type="text" id="value1" name="value1" value=" " /> value2 =
+    <input type="text" id="value2" name="value2" value=" " />
+
+    <input type="button" name="Submit" value="Click here" onclick="javascript:addNumber()" /> Answer = <input type="text" id="answer" name="answer" value=" " />
+</body>
+
+</html>
