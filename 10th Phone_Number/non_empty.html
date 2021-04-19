@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS form validation:</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div class="mail">
+			<h2>Input Your name and submit</h2>
+			<form name="form1" action="#" onsubmit="required()">
+				<ul>
+					<li><input type="text" name="text1" /></li>
+					<li class="rq">*Required Field</li>
+					<li>&nbsp;</li>
+
+					<center>
+						<li>
+							
+							<input
+								type="submit"
+								name="submit"
+								value="Submit"
+								onclick="alphanumeric(document.form1.text1)"
+							/>
+						</li>
+					</center>
+				</ul>
+				<a href="registration.html">1. Registration Number</a>
+				<br />
+				<a href="phoneno_all_numeric_validation.html"
+					>3. Register Phone Number</a
+				>
+				<br />
+				<a href="phoneno_international_format.html"
+					>4. Register International Phone Number
+				</a>
+				<br />
+				<a href="phoneno_+international_format.html"
+					>5. Register another +International Phone Number</a
+				>
+			</form>
+		</div>
+
+		<script src="non_empty.js"></script>
+	</body>
+</html>
