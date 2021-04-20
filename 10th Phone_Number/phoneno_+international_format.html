@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS form validation: checling non empty</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body onload="document.form1.text1.focus()">
+		<div class="mail">
+			<h2>
+				Input an Phone No. [+xxx-xxx-xxxx, +xxx.xxx.xxxx, +xxx xxx xxxx] and
+				Submit
+			</h2>
+			<form name="form1" action="#">
+				<ul>
+					<li><input type="text" name="text1" /></li>
+					<li>&nbsp;</li>
+
+					<center>
+						<li>
+							
+							<input
+								type="submit"
+								name="submit"
+								value="Submit"
+								onclick="alphanumeric(document.form1.text1)"
+							/>
+						</li>
+					</center>
+					<li>&nbsp;</li>
+				</ul>
+				<a href="registration.html">1. Registration Number</a>
+				<br />
+				<a href="non_empty.html">2. Register Name</a>
+				<br />
+				<a href="phoneno_all_numeric_validation.html"
+					>3. Register Phone Number</a
+				>
+				<br />
+				<a href="phoneno_international_format.html"
+					>4. Register International Phone Number
+				</a>
+				<br />
+			</form>
+		</div>
+
+		<script src="phoneno_+international_format.js"></script>
+	</body>
+</html>
