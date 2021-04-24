@@ -1,0 +1,64 @@
+body {
+	background-color: #184d47;
+	text-shadow: #FFFFF 0px 1px 0px;
+	font-family: 'Georgia', 'Times', serif;
+	-webkit-font-smoothing: antialiased;
+}
+li {
+	list-style-type: none;
+	font-size: 16pt;
+	text-shadow: purple;
+	
+}
+
+.mail {
+	margin: auto;
+    margin-top: 100px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	width: 400px;
+	background: #96bb7c;
+	border: 1px solid silver;
+    border-radius: 0.3cm;
+    text-align: center;
+}
+
+.mail h2 {
+	margin-left: 38px;
+}
+
+input {
+	font-size: 19.5pt;
+	border-radius: 0.3cm;
+	margin-right: 12px;
+	padding: 5px 8px 9px;
+	
+}
+input:focus,
+textarea:focus {
+	background-color: #fad586;
+    
+}
+input submit {
+	font-size: 12pt;
+}
+.rq {
+	color: #ca0a0a;
+	font-size: 12pt;
+}
+
+a {
+	display: block;
+	background-color: #184d47;
+	color: white;
+	border-radius: 0.3cm;
+	width: 300px;
+	height: 30px;
+	font-size: 12pt;
+	padding: 10px 0;
+	text-align: center;
+    margin-top: 10px;
+	margin-left: 53px;
+	margin-right: 10px;
+    
+}
